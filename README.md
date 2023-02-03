@@ -4,13 +4,28 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 <img width="1266" alt="Captura de tela 2022-06-19 às 2 18 18 PM" src="https://raw.githubusercontent.com/Edi6758/ChallengeMusic_JS/master/img/edi.jpg">
 
+Objetivo do projeto:
+
+- Criar um site de portifólio 100% em React para atualizar os meus meios de contato, currículo e projetos pessoais
+- Conheça a <https://inspirationdev.com/>
+
+Como ler a nomeclatura de três digitos desse conjunto de projetos do portifólio (000):
+
+- 1º número, número de publicação do app de front-end (ReactJS)
+- 2º número, número de publicação do app mobile (React Native)
+- 3º número, número de publicação do app em de backend (NodeJS)
+exemplo 01: 100, app de front-end do primeiro projeto do portifólio
+exemplo 02: 001, app de back-end do primeiro projeto do portifólio
+exemplo 03: 002, app de back-end do segundo projeto do portifólio
+exemplo 04: 030, app mobile do terceiro projeto do portifólio
+
 Construído usando:
 
 - Biblioteca front-end: React
 - Framework CSS: React-bootstrap
 - Biblioteca de animações CSS: Animate.css
 
-No /personal-portfolio, você pode executar:
+No /001-personal-react-portfolio, você pode executar:
 
 ### `npm start`
 

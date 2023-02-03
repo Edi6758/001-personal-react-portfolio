@@ -14,10 +14,10 @@ Como ler a nomeclatura de três digitos desse conjunto de projetos do portifóli
 - 1º número, número de publicação do app de front-end (ReactJS)
 - 2º número, número de publicação do app mobile (React Native)
 - 3º número, número de publicação do app em de backend (NodeJS)
-exemplo 01: 100, app de front-end do primeiro projeto do portifólio
-exemplo 02: 001, app de back-end do primeiro projeto do portifólio
-exemplo 03: 002, app de back-end do segundo projeto do portifólio
-exemplo 04: 030, app mobile do terceiro projeto do portifólio
+- exemplo 01: 100, app de front-end do primeiro projeto do portifólio
+- exemplo 02: 001, app de back-end do primeiro projeto do portifólio
+- exemplo 03: 002, app de back-end do segundo projeto do portifólio
+- exemplo 04: 030, app mobile do terceiro projeto do portifólio
 
 Construído usando:
 

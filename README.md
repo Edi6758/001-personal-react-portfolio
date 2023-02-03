@@ -2,7 +2,7 @@
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Captura de tela 2022-06-19 às 2 18 18 PM" src="https://github.com/Edi6758/ChallengeMusic_JS/blob/master/img/edi.jpg">
+<img width="1266" alt="Captura de tela 2022-06-19 às 2 18 18 PM" src="https://raw.githubusercontent.com/Edi6758/ChallengeMusic_JS/master/img/edi.jpg">
 
 Construído usando:
 

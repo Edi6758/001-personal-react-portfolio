@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Banner = () => {
+export const Profile = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -46,20 +46,20 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Headder Img" />
-                    </Col>
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animated__animated animated__fadeIn" : ""}>
-                                    <span className="tagline">Fico feliz em te ver aqui, seja bem vindo!</span>
+                                    <span className="tagline">Quem é Edivaldo Júnior?</span>
                                     <h1>Olá, conheça minha <span className="fullstack-word">stack:</span><br></br><span className="wrap">{text}</span></h1>
                                     <p>Olá, me chamo Edivaldo Jr e sou um desenvolvedor full-stack altamente capacitado com vasta experiência em JavaScript, TypeScript, React, React Native, Node e GraphQL. Além disso, tenho conhecimento em Vtex IO, o que me permite criar soluções completas e escaláveis para as necessidades de meus clientes. Com mais de 4 anos de experiência e mais de 20 projetos nacionais e internacionais no currículo, posso garantir que sou um profissional dedicado e apto a atuar em qualquer desafio. Permita-me apresentar meu portfólio e comprovar minhas habilidades para que eu possa contribuir com sua equipe e alcançarmos juntos o sucesso.</p>
                                     <button onClick={() => { window.location = 'https://api.whatsapp.com/send/?phone=554891122392' }}>Entre em contato <ArrowRightCircle size={25} /> </button>
                                 </div>
                             }
                         </TrackVisibility>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <img src={headerImg} alt="Headder Img" />
                     </Col>
                 </Row>
             </Container>

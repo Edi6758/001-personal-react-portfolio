@@ -1,3 +1,10 @@
+/************ Custom Font ************/
+@font-face {
+  font-family: RetroGaming;
+  src: url('./assets/fonts/Retro-Gaming.ttf');
+  font-weight: 700;
+}
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -16,7 +23,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'RetroGaming', sans-serif !important;
 }
 
 h1,
@@ -92,7 +99,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 13%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -253,25 +260,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url('./assets/img/banner-bg.png') center center no-repeat fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(90.21deg, #009788 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 5px solid rgba(0, 0, 0);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
 }
 
 .banner h1 {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -280,7 +288,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner p {
-  color: #B8B8B8;
+  color: #ededed;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -310,6 +318,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner img {
   animation: updown 3s linear infinite;
+}
+
+.fullstack-word {
+  transition-duration: 4s;
+}
+
+.fullstack-word:hover {
+  color: #210e79;
+  
 }
 
 @keyframes updown {
@@ -350,7 +367,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill p {
-  color: #B8B8B8;
+  color: #ededed;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -391,7 +408,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project p {
-  color: #B8B8B8;
+  color: #ededed;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -692,7 +709,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #ededed;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

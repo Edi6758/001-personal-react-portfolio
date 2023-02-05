@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/header-img.png"
+import headerImg from "../assets/img/header2-img.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -9,7 +8,7 @@ export const Profile = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
-    const toRotate = ["JavaScript", "TypeScript", "ReactJS", "NodeJS", "VTEX IO"];
+    const toRotate = ["programador", "entusiasta", "curioso", "sonhador", "as vezes gamedev"];
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const period = 2000;
 
@@ -43,17 +42,16 @@ export const Profile = () => {
     }
 
     return (
-        <section className="banner" id="home">
+        <section className="banner resume" id="resume">
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animated__animated animated__fadeIn" : ""}>
-                                    <span className="tagline">Quem é Edivaldo Júnior?</span>
-                                    <h1>Olá, conheça minha <span className="fullstack-word">stack:</span><br></br><span className="wrap">{text}</span></h1>
-                                    <p>Olá, me chamo Edivaldo Jr e sou um desenvolvedor full-stack altamente capacitado com vasta experiência em JavaScript, TypeScript, React, React Native, Node e GraphQL. Além disso, tenho conhecimento em Vtex IO, o que me permite criar soluções completas e escaláveis para as necessidades de meus clientes. Com mais de 4 anos de experiência e mais de 20 projetos nacionais e internacionais no currículo, posso garantir que sou um profissional dedicado e apto a atuar em qualquer desafio. Permita-me apresentar meu portfólio e comprovar minhas habilidades para que eu possa contribuir com sua equipe e alcançarmos juntos o sucesso.</p>
-                                    <button onClick={() => { window.location = 'https://api.whatsapp.com/send/?phone=554891122392' }}>Entre em contato <ArrowRightCircle size={25} /> </button>
+                                    <span className="tagline">Sobre mim...</span>
+                                    <h1>Quem é, <span className="fullstack-word">Edivaldo JR?</span><br></br><span className="wrap">{text}</span></h1>
+                                    <p>Nascido e criado em Florianópolis. Cresci dentro de uma família humilde, com um pai cozinheiro e uma mãe faxineira. Desde jovem, eu sempre busquei formas de ajudar minha família financeiramente. Aos 14 anos entrei em um curso de desenvolvimento de jogos e comecei a dar meus primeiros passos com o desenvolvimento WEB. Em paralelo eu entregava panfletos para conseguir algum dinheiro extra. Quando completei 17 anos, comecei a trabalhar como auxiliar de cozinha. Foi durante esse período que eu mergulhei de cabeça no mundo da programação, ingressando como bolsista no SENAI e fazendo meus primeiros freelas. Eu sempre fui fascinado por tecnologia e vi nesse mercado uma oportunidade de crescer profissionalmente e ajudar ainda mais minha família. Comecei a estudar por conta própria e fiz alguns cursos na área e por fim ingressei na UFSC. Com o tempo, eu fui crescendo em minha carreira e hoje sou considerado um desenvolvedor Full Stack JS com quase 3 anos de experiência e mais de 20 projetos concluídos. Tenho experiência profissional em JavaScript, TypeScript e React. Tenho conhecimento em React Native, Node.js e GraphQL, Java, Python além de ter experiência com a plataforma VTEX. Minha jornada até aqui foi cheia de desafios, mas eu sempre enfrentei tudo com muita determinação e dedicação. Hoje, eu me sinto realizado por tudo o que conquistei e continuo buscando novos desafios para evoluir ainda mais em minha carreira</p>
                                 </div>
                             }
                         </TrackVisibility>

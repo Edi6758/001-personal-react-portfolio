@@ -262,9 +262,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 260px 0 0px 0;
   background: url('./assets/img/banner-bg.png') center center no-repeat fixed;
   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .resume {
@@ -336,7 +336,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .fullstack-word:hover {
   color: #210e79;
-  
+
 }
 
 @keyframes updown {
@@ -724,3 +724,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Mobile Css ************/
+
+@media(max-width: 768px) {
+  .banner {
+    padding: 130px 0 0 0;
+  }
+
+  .banner .tagline {
+    font-size: 15px;
+  }
+
+  .banner h1 {
+    font-size: 25px;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+
+  .skill h2 {
+    font-size: 25px;
+  }
+
+  .skill p {
+    font-size: 15px;
+  }
+
+  .project h2 {
+    font-size: 25px;
+  }
+
+  .project p {
+    font-size: 15px;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 12px;
+  }
+
+  .newsletter-bx {
+    padding: 35px;
+  }
+
+  .newsletter-bx h3 {
+    padding: 30px;
+  }
+}
